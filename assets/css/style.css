@@ -69,5 +69,31 @@ div.right a{
   border: 0px;
   font-weight: bold;
   text-transform: capitalize;
+}
 
+.firstcontainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:  auto;
+  color: grey;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: none;
+
+}
+
+.conto, .investimenti, .pagamenti, .extra{
+  display: flex;
+  flex-direction: column;
+}
+
+.conto span, .investimenti span, .pagamenti span, .extra span{
+  margin-left: 10px;
+}
+.conto ul li, .investimenti ul li, .pagamenti ul li, .extra ul li{
+  margin: 10px 10px;
+  list-style-type: none;
 }
