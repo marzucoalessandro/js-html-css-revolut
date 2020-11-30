@@ -27,5 +27,12 @@ $(document).ready(function() {
  });
  });
 
- 
+ $("a").mouseenter(function() {
+   $(this).css("color", "black")
+ });
+
+ $("a").mouseleave(function() {
+   $(this).css("color", "grey")
+ });
+
 });
