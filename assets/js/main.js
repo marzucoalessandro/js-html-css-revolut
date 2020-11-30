@@ -4,7 +4,7 @@ $(document).ready(function() {
 
  var bottoneUno = $("button.enter");
  var bottoneDue = $("button.download");
-
+ var menuGrande = $("div.firstcontainer div ul li");
  bottoneUno.mouseenter(function() {
 
    bottoneUno.css("background-color", "grey");
@@ -40,10 +40,10 @@ $(document).ready(function() {
    $("div.firstcontainer").css({"display": "block",
                                 "display": "flex",
  });
-  $("div.firstcontainer div ul li").mouseenter(function () {
+  menuGrande.mouseenter(function () {
     $(this).css("color", "black");
   })
-  $("div.firstcontainer div ul li").mouseleave(function () {
+  menuGrande.mouseleave(function () {
     $(this).css("color", "grey");
   })
 });
