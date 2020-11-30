@@ -2,6 +2,7 @@
   margin: 0;
   padding-left: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -27,14 +28,46 @@ nav {
   /* background-color: blue; */
 }
 
-i.rev {
+i.fa-registered {
   background-color: black;
   width: 30px;
 }
 div.left a{
-  margin: 40px 30px;
+  margin: 40px 20px;
   text-decoration: none;
   font-weight: 400;
   color: grey;
+  text-transform: capitalize;
+}
+
+div.right a{
+  margin: 40px 20px;
+  text-decoration: none;
+  font-weight: 400;
+  color: grey;
+  text-transform: capitalize;
+
+}
+
+.enter {
+  padding: 10px 20px;
+  margin: 30px 10px 30px 30px;
+  background-color: lightgrey;
+  color: black;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.download {
+  padding: 10px 20px;
+  margin: 30px 10px 30px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: bold;
+  text-transform: capitalize;
 
 }
