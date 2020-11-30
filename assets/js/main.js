@@ -15,4 +15,17 @@ $(document).ready(function() {
                    "cursor": "pointer",
  });
  });
+
+ bottoneDue.mouseenter(function() {
+
+   bottoneDue.css("background-color", "lightgrey");
+ });
+
+ bottoneDue.mouseleave(function() {
+   bottoneDue.css({"background-color": "black",
+                   "cursor": "pointer",
+ });
+ });
+
+ 
 });
