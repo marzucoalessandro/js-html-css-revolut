@@ -40,6 +40,12 @@ $(document).ready(function() {
    $("div.firstcontainer").css({"display": "block",
                                 "display": "flex",
  });
+  $("div.firstcontainer div ul li").mouseenter(function () {
+    $(this).css("color", "black");
+  })
+  $("div.firstcontainer div ul li").mouseleave(function () {
+    $(this).css("color", "grey");
+  })
 });
 
 });
