@@ -31,10 +31,15 @@ $(document).ready(function() {
    $(this).css("color", "black")
  });
 
+
  $("a").mouseleave(function() {
    $(this).css("color", "grey")
  });
 
- 
+ $("a.funzionalit").mouseenter(function() {
+   $("div.firstcontainer").css({"display": "block",
+                                "display": "flex",
+ });
+});
 
 });
