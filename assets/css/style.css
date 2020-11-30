@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width:  90%;
+  height: 100px;
+  /* background-color: green; */
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
+  /* background-color: red; */
+}
+
+.right {
+  display: flex;
+  width: 70%;
+  justify-content: flex-end;
+  /* background-color: blue; */
+}
+
+i.rev {
+  background-color: black;
+  width: 30px;
+}
+div.left a{
+  margin: 40px 30px;
+  text-decoration: none;
+  font-weight: 400;
+  color: grey;
+
+}
